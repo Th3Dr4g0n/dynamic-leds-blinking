@@ -1,4 +1,4 @@
-# dynamic-leds-blinking
+# raspberry-pi-dynamic-leds-blinking
 A Python script that allows you to blink LED lights using your Raspberry Pi's GPIO pins
 
 ## Build the circut layout
