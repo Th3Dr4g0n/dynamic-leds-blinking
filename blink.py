@@ -48,7 +48,7 @@ def blink(gpio_pins, interval):
 		#Clean up the pi's GPIO
         GPIO.cleanup()
 
-#Registring GPIO pins 11, 12, and 13
+#Registering GPIO pins 11, 12, and 13
 connected_gpio_pins = [11, 12, 13]
 
 #Setting up blinking interval
