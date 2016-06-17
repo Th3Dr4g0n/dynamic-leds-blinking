@@ -1,16 +1,16 @@
 # raspberry-pi-dynamic-leds-blinking
 A Python script that allows you to blink LED lights using your Raspberry Pi's GPIO pins
 
-## Build the circut layout
-Connect your LED light(s) to your pi. The below circut layout is just an example, but you can add/remove LED lights.
+## Build the circuit layout
+Connect your LED light(s) to your pi. The below circuit layout is just an example, but you can add/remove LED lights.
 ![Screenshot](http://mohammed-radwan.com/uploads/led%203x.jpg?id=1)
 
 ## Usage
-Once the circut is complete, open the script and adjust the code before running it.
+Once the circuit is complete, open the script and adjust the code before running it.
 
 You need to set the correct GPIO pins in the line below
 ```python
-#Registring GPIO pins 11, 12, and 13
+#Registering GPIO pins 11, 12, and 13
 connected_gpio_pins = [11, 12, 13]
 ```
 
@@ -26,7 +26,7 @@ Finally start the program
 blink(connected_gpio_pins, interval)
 ```
 
-You can play around with pins registration by registring the same pin more than once to have an unordered LED lights
+You can play around with pins registration by registering the same pin more than once to have an unordered LED lights
 ```python
 connected_gpio_pins = [11, 11, 13, 12, 11, 13, 13, 12]
 ```
